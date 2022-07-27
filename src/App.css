@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  background-image: url("https://diplomartbrussels.com/wp-content/uploads/2020/09/food-background-images-94-images-in-co-381169-png-images-pngio-food-background-png-1440_619.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  margin: auto;
+ 
+}
+.app-header{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px+2vmin);
+  /* margin-bottom: 19%; */
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.wrapper :hover {
+  background-color: rgb(170, 103, 103);
+}
+.chhutu:hover{
+  color: rgb(61, 174, 88);
+}
+.p:hover{
+  color: rgb(90, 185, 27);
+}
+.ingredient{
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px 0 rgb(0 ,0 ,0, 0.5);
+  display: flex;
+  justify-items: space-between;
+  flex-direction: column;
+align-items: center;
+padding: 20px;
+margin: 20px;
+background-color: rgb(168, 112, 39);
+
+}
+.ingredient img{
+  height: 80px;
+  width: 120px;
+  border-radius: 10px;
+  /* display: flex; */
+}
+.ingredient p{
+  margin: 0;
+  font-size: 15px;
+  
+}
+
+.step{
+  overflow-y:scroll ;
+  /* overflow: hidden; */
+  /* background-color: aquamarine; */
+  color: rgb(41, 16, 20);
+
+}
+/* p:hover, h1:hover, a:hover h3:hover {
+  background-color: rgb(194, 194, 59);
+} */
